@@ -24,8 +24,9 @@ Edit the top of `collect_dumps.py`:
 NAMESPACE = "default"           # Kubernetes namespace
 POD_LABEL = "app=my-java-app"   # Label selector for your pods
 OUTPUT_DIR = "dumps"            # Local folder to store dumps
+```
 
-# Usage
+## Usage
 
 ## Clone the repo:
 
