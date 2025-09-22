@@ -25,14 +25,14 @@ NAMESPACE = "default"           # Kubernetes namespace
 POD_LABEL = "app=my-java-app"   # Label selector for your pods
 OUTPUT_DIR = "dumps"            # Local folder to store dumps
 
-**# Usage**
+# Usage
 
-**## Clone the repo:**
+## Clone the repo:
 
 git clone https://github.com/<your-username>/k8s-heap-thread-dump-automation.git
 cd k8s-heap-thread-dump-automation
 
-**##Run the script:**
+##Run the script:
 
 python3 collect_dumps.py
 
